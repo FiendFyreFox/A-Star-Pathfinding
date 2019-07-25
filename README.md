@@ -5,12 +5,12 @@ A simple A* implementation in Processing 3.5.3 which generates a random maze of 
 # Directions:
 
 Open the astart-priorityqueue file, then change the values at the top of the file to your liking.
-\ncols/rows: the number of columns / rows in the maze, these can be different, but it will cause problems.
-\nGridSize: the density / size of each node displayed in the window. it should be (1/cols) * window size X
-\nstartX/startY: the coordinates of the starting node. After running the program, you can change these by clicking on a node while holding 's'
-\nendX/endY: the coordinates of the end node. After running the program, you can change these by clicking on a node while holding 'e'
-\ncanMoveDiag: This controls whether the AI will consider diagonal moves as it pathfinds. If false this can lead to multiple paths being the same length.
-\nWallWeight: the ratio of walls to walkable nodes. if this is 0 the rato wil be 1:1, if it is 1 there will be no walls. if it is -1 there will be a 3:1 ratio.\n
+<br />cols/rows: the number of columns / rows in the maze, these can be different, but it will cause problems.
+<br />GridSize: the density / size of each node displayed in the window. it should be (1/cols) * window size X
+<br />startX/startY: the coordinates of the starting node. After running the program, you can change these by clicking on a node while holding 's'
+<br />endX/endY: the coordinates of the end node. After running the program, you can change these by clicking on a node while holding 'e'
+<br />canMoveDiag: This controls whether the AI will consider diagonal moves as it pathfinds. If false this can lead to multiple paths being the same length.
+<br />WallWeight: the ratio of walls to walkable nodes. if this is 0 the rato wil be 1:1, if it is 1 there will be no walls. if it is -1 there will be a 3:1 ratio.
 
 # Additional notes:
 
